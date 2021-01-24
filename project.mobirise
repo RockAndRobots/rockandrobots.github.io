@@ -304,7 +304,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/20210124-rochandrobots-logo-copia-2000x2000.png",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -389,7 +389,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-3085-2000x1500.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
