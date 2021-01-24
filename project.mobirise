@@ -304,7 +304,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/20210124-rochandrobots-logo-copia-2000x2000.png",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -390,6 +390,23 @@
               {
                 "image": "@PROJECT_PATH@/assets/images/img-3085-2000x1500.jpg",
                 "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "<b>Rock And Robots</b>",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"mailto:rockandrobots@gmail.com\" data-toolbar=\"-mbrBtnMove\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\">INSCRIPCIÓN</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2021-01-24-at-15.22.44-1280x720.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
