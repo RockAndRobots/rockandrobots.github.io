@@ -35,8 +35,10 @@
     "versionFirst": "4.8.1",
     "siteFonts": [],
     "uniqCompNum": 14,
-    "versionPublish": "4.8.1",
-    "screenshot": "screenshot.png"
+    "versionPublish": "4.8.8",
+    "screenshot": "screenshot.png",
+    "favicon": "@PROJECT_PATH@/assets/images/captura-de-pantalla-2021-01-24-a-las-11.51.49-copia-128x128.png",
+    "noImageResize": ""
   },
   "pages": {
     "index.html": {
@@ -300,6 +302,23 @@
             "slides__autoplayInterval": 4000,
             "slides__showBullets": true,
             "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/20210124-rochandrobots-logo-copia-2000x2000.png",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "<b>Rock And Robots</b>",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"mailto:rockandrobots@gmail.com\" data-toolbar=\"-mbrBtnMove\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\">INSCRIPCIÓN</a>"
+              },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-3087-2000x1500.jpg",
                 "active": false,
