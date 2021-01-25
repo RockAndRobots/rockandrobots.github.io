@@ -335,7 +335,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"mailto:rockandrobots@gmail.com\" data-toolbar=\"-mbrBtnMove\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
@@ -369,7 +369,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"mailto:rockandrobots@gmail.com\" data-toolbar=\"-mbrBtnMove\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2021-01-24-at-15.22.44-1280x720.jpg",
