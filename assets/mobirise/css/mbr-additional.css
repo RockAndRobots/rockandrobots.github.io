@@ -1954,7 +1954,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #333333;
+  background-color: #232323;
 }
 .cid-sn4cdbXYKP button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2175,5 +2175,5 @@ body {
 }
 .cid-sn4cdbXYKP .nav-link:hover,
 .cid-sn4cdbXYKP .dropdown-item:hover {
-  color: #767676 !important;
+  color: #333333 !important;
 }
