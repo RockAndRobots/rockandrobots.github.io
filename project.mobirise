@@ -24,8 +24,8 @@
         "display4Font": "Rubik",
         "display4Size": 1,
         "isRoundedButtons": true,
-        "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
         "#000000",
@@ -35,7 +35,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 14,
+    "uniqCompNum": 17,
     "versionPublish": "4.8.8",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -317,8 +317,8 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando<br> lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-3087-2000x1500.jpg",
@@ -334,8 +334,8 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando <br>lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1280.jpg",
@@ -356,7 +356,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1656.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -368,8 +368,8 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando <br>lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSdr-TWMgcUSw_8tdxbmon2zvmXdDpTaMBoSdUnmVcYKryNGXw/viewform\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/whatsapp-image-2021-01-24-at-15.22.44-1280x720.jpg",
@@ -385,8 +385,8 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>",
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>",
                 "overlayOpacity": "0.2"
               },
               {
@@ -403,8 +403,8 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/img-3085-2000x1500.jpg",
@@ -420,8 +420,26 @@
                 "title": "<b>Rock And Robots</b>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Taller para chicas y chicos en edad de secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando lo más posible la creatividad.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://goo.gl/forms/g2fDKtmITbmr9j7X2\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+                "text": "Taller para chicas y chicos en edad de primario y secundario en donde se aprende a programar hardware para lograr diseñar y construir proyectos con elementos nuevos y desarrollando <br>lo más posible la creatividad.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/8b3EN21QbrTpPJgB6\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CONTACTO</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://forms.gle/GQZJ1thEXHY4p6oM9\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/pagina-adv-1-1500x500.png",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-1",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"http://bit.ly/arduinodevacaciones\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">INSCRIPCIÓN</a>",
+                "overlayOpacity": "0.2"
               }
             ]
           }
@@ -456,7 +474,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>En este momento la muchos de los colegios del país no incluyen contenidos de programación o hardware.</p><p>En 2021 estamos rodeados de tecnología que proviene de otros países y que consumimos pero no estamos en condiciones de diseñar o crear.</p><p>Queremos darle a los chicos la oportunidad de que puedan conocer para definir su futuro y también interactuar con tecnología de manera activa y creativa.</p><p>No hace falta que trabajen en proyectos complejos para construir circuitos inentendibles, sino que pueden ir aprendiendo de a poco o muy rápido cómo manejar y moldear nuevos materiales, generar interfaces interactivas con el Mundo real y también dominar elementos nuevos que si bien no tienen al alcance, están diseñados para que aprendan fácilmente, solo necesitan un tiempo de guía. Para eso estamos.</p><p>Los participantes son chicas y chicos de 13 a 17 años, y los instructores son ingenieros y profesionales de diferentes ramas de tecnología.</p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p>En este momento la muchos de los colegios del país no incluyen contenidos de programación o hardware.</p><p>Pero estamos rodeados de tecnología que proviene de otros países y que consumimos pero no estamos en condiciones de diseñar o crear.</p><p>Queremos darle a los chicos la oportunidad de que puedan conocer para definir su futuro y también interactuar con tecnología de manera activa y creativa.</p><p>No hace falta que trabajen en proyectos complejos para construir circuitos inentendibles, sino que pueden ir aprendiendo de a poco o muy rápido cómo manejar y moldear nuevos materiales, generar interfaces interactivas con el Mundo real y también dominar elementos nuevos que si bien no tienen al alcance, están diseñados para que aprendan fácilmente, solo necesitan un tiempo de guía. Para eso estamos.</p><p>Los participantes son chicas y chicos de primario y secundario, y los instructores son ingenieros y profesionales de diferentes ramas de tecnología.</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "r2MRIs0Vln",
           "_anchor": "content1-3",
           "_protectedParams": [],
@@ -624,7 +642,7 @@
             }
           },
           "_name": "content11",
-          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>NOTEBOOK</b>&nbsp;- Se recomienda una notebook por equipo, con al menos 4G de RAM, y puertos USB, para poder instalar las aplicaciones.</li>\n                    <li><b>ROBOTS YA CONSTRUIDOS</b> - Tenemos materiales para compartir y empezar a programar, hasta que diseñen los propios.</li>\n                    <li><b>MICROCONTROLADOR Y MATERIALES DE ELECTRÓNICA</b>- De acuerdo a lo que diseñenen, pueden tener un microprocesador por equipo o individual, que van a tener que comprar, gastando desde $1000 hasta lo que vayan agregando. Los materiales unitarios son económicos.</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content11\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Square Counters\" name=\"squareCounters\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#149dcc\" condition=\"stylizedCounters\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ol>\n                    <li><b>NOTEBOOK</b>&nbsp;- Se recomienda una notebook por equipo, con al menos 4G de RAM, y puertos USB, para poder instalar las aplicaciones.</li>\n                    <li><b>ROBOTS YA CONSTRUIDOS</b> - Tenemos materiales para compartir y empezar a programar, hasta que diseñen los propios.</li>\n                    <li><b>MICROCONTROLADOR Y MATERIALES DE ELECTRÓNICA</b>- De acuerdo a lo que diseñenen, pueden tener un microprocesador por equipo o individual</li>\n                </ol>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "r2SKgnncdh",
           "_anchor": "content11-b",
           "_protectedParams": [],
