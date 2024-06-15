@@ -967,6 +967,12 @@
             },
             ".mbr-text": {
               "color": "#ffffff"
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "text-align": "center"
+            },
+            ".mbr-text, .text-wrapper": {
+              "text-align": "center"
             }
           },
           "_name": "header01",

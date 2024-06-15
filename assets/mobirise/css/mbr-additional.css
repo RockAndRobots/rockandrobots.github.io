@@ -929,6 +929,14 @@ img {
 .cid-ufNxpCfqph .mbr-text {
   color: #ffffff;
 }
+.cid-ufNxpCfqph .mbr-section-title,
+.cid-ufNxpCfqph .mbr-section-btn {
+  text-align: center;
+}
+.cid-ufNxpCfqph .mbr-text,
+.cid-ufNxpCfqph .text-wrapper {
+  text-align: center;
+}
 .cid-ufNHjNAXFw {
   background-color: transparent;
 }
