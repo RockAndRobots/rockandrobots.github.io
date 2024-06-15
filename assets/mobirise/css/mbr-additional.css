@@ -841,6 +841,14 @@ img {
 .cid-ufNwFEsDDS .mbr-text {
   color: #ffffff;
 }
+.cid-ufNwFEsDDS .mbr-text,
+.cid-ufNwFEsDDS .text-wrapper {
+  text-align: center;
+}
+.cid-ufNwFEsDDS .mbr-section-title,
+.cid-ufNwFEsDDS .mbr-section-btn {
+  text-align: center;
+}
 .cid-ufNxpCfqph {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1554,4 +1562,38 @@ img {
 }
 .cid-ufNHjNAXFw a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   background-image: none;
+}
+.cid-ufNLwJlF13 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2b71e9;
+}
+.cid-ufNLwJlF13 .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-ufNLwJlF13 form.mbr-form {
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+@media (min-width: 992px) {
+  .cid-ufNLwJlF13 form.mbr-form {
+    padding: 3rem 2rem;
+    width: 60%;
+  }
+}
+@media (max-width: 991px) {
+  .cid-ufNLwJlF13 form.mbr-form {
+    padding: 1rem;
+  }
+}
+.cid-ufNLwJlF13 form.mbr-form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-ufNLwJlF13 form.mbr-form .mbr-section-btn .btn {
+  width: 100%;
+}
+.cid-ufNLwJlF13 .mbr-section-title {
+  color: #ffffff;
 }
