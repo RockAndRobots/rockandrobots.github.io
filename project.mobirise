@@ -65,7 +65,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 32,
+    "uniqCompNum": 33,
     "versionPublish": "6.0.1",
     "screenshot": "screenshot.png",
     "google-analytics": "<!-- Google tag (gtag.js) -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-FPDXHMEJB2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-FPDXHMEJB2');\n</script>",
@@ -1026,11 +1026,14 @@
             },
             ".card-role": {
               "color": "#ffffff"
+            },
+            ".mbr-text, .text-wrapper": {
+              "text-align": "left"
             }
           },
           "_name": "header02",
           "_sourceTheme": "replym5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header02 replym5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"color\" title=\"Title BG\" value=\"#addc39\" name=\"title\" condition=\"showCardTitle\" selected>\n        <input type=\"color\" title=\"Shadow Color\" value=\"#000000\" name=\"shadow\" condition=\"showCardTitle\" selected>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\" checked>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Card BG\" value=\"#2b71e9\" name=\"card\" condition=\"showCardTitle ||showCardText || showName || showRole\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#addc39\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"content-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Inscripciones abiertas todo el año</b></h1>\n                    <div class=\"text-wrapper\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrapper\">Comienzo de Clases Marzo 2026</p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"http://bit.ly/rockandrobots2026\" data-app-placeholder=\"Type Text\" target=\"_blank\">Anotate acá</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"card-wrapper\" mbr-if=\"showCardTitle ||showCardText || showName || showRole\">\n                    <div class=\"title-wrap\" mbr-if=\"showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" data-app-selector=\".card-title, .title-wrap\" mbr-theme-style=\"display-4\">\n                            <b>Taller Maker</b>\n                        </h4>\n                    </div>\n                    <h4 class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\">Este curso de robótica está diseñado para inspirar a chicas y chicos de 6 a 12 años a explorar el emocionante mundo de la electrónica y la programación. A través de actividades prácticas y divertidas, aprenderán a armar distintos dispositivos, desde robots simples hasta proyectos más complejos, utilizando componentes electrónicos y herramientas de programación visual. El curso fomenta la creatividad, el trabajo en equipo y el pensamiento lógico, mientras los participantes descubren cómo la tecnología puede hacer realidad sus ideas. ¡Prepárate para construir, programar y divertirte mientras te conviertes en un creador de robots!<br><br>Las clases son semanales de 2 horas.</h4>\n                    <div class=\"person-wrap\" mbr-if=\"showName || showRole\">\n                        <p class=\"card-name mbr-fonts-style\" data-app-selector=\".card-name\" mbr-theme-style=\"display-4\" mbr-if=\"showName\">\n                            <b>Para pedir información:</b></p>\n                        <p class=\"card-role mbr-fonts-style\" data-app-selector=\".card-role\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                            hola@rockandrobots.ar</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <img class=\"main-image\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2025-03-21-at-14.16.26-1004x1120.webp\" alt=\"Mobirise Website Builder\">\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header02 replym5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Card</header>\n        <input type=\"checkbox\" title=\"Card Title\" name=\"showCardTitle\" checked>\n        <input type=\"color\" title=\"Title BG\" value=\"#addc39\" name=\"title\" condition=\"showCardTitle\" selected>\n        <input type=\"color\" title=\"Shadow Color\" value=\"#000000\" name=\"shadow\" condition=\"showCardTitle\" selected>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showCardText\" checked>\n        <input type=\"checkbox\" title=\"Card Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Card Role\" name=\"showRole\" checked>\n        <input type=\"color\" title=\"Card BG\" value=\"#2b71e9\" name=\"card\" condition=\"showCardTitle ||showCardText || showName || showRole\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#addc39\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"content-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title, .mbr-section-btn\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Inscripciones abiertas todo el año</b></h1>\n                    <div class=\"text-wrapper\">\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .text-wrapper\">Comienzo de Clases Marzo 2026:<br>pedí información en hola@rockandrobots.ar<br></p>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary-outline\" href=\"http://bit.ly/rockandrobots2026\" data-app-placeholder=\"Type Text\" target=\"_blank\">Anotate acá</a></div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"card-wrapper\" mbr-if=\"showCardTitle ||showCardText || showName || showRole\">\n                    <div class=\"title-wrap\" mbr-if=\"showCardTitle\">\n                        <h4 class=\"card-title mbr-fonts-style\" data-app-selector=\".card-title, .title-wrap\" mbr-theme-style=\"display-4\">\n                            <b>Taller Maker</b>\n                        </h4>\n                    </div>\n                    <h4 class=\"card-text mbr-fonts-style\" data-app-selector=\".card-text\" mbr-theme-style=\"display-4\" mbr-if=\"showCardText\">Este curso de robótica está diseñado para inspirar a chicas y chicos de 6 a 12 años a explorar el emocionante mundo de la electrónica y la programación. A través de actividades prácticas y divertidas, aprenderán a armar distintos dispositivos, desde robots simples hasta proyectos más complejos, utilizando componentes electrónicos y herramientas de programación visual. El curso fomenta la creatividad, el trabajo en equipo y el pensamiento lógico, mientras los participantes descubren cómo la tecnología puede hacer realidad sus ideas. ¡Prepárate para construir, programar y divertirte mientras te conviertes en un creador de robots!<br><br>Las clases son semanales de 2 horas.</h4>\n                    <div class=\"person-wrap\" mbr-if=\"showName || showRole\">\n                        <p class=\"card-name mbr-fonts-style\" data-app-selector=\".card-name\" mbr-theme-style=\"display-4\" mbr-if=\"showName\">\n                            <b>Para pedir información:</b></p>\n                        <p class=\"card-role mbr-fonts-style\" data-app-selector=\".card-role\" mbr-theme-style=\"display-4\" mbr-if=\"showRole\">\n                            hola@rockandrobots.ar</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <img class=\"main-image\" src=\"@PROJECT_PATH@/assets/images/screen-shot-2025-03-21-at-14.16.26-1004x1120.webp\" alt=\"Mobirise Website Builder\">\n</section>",
           "_cid": "uG6fdnqa7y",
           "_anchor": "header02-s",
           "_protectedParams": [],
@@ -1258,6 +1261,203 @@
         {
           "alias": false,
           "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title::before": {
+                "background": "transparent !important"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacity !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "z-index": "2",
+              "&:before": {
+                "content": "\" \"",
+                "width": "100%",
+                "height": "100%",
+                "top": "0",
+                "left": "0",
+                "z-index": "-1",
+                "position": "absolute",
+                "background": "@overlayColor !important",
+                "opacity": "@overlayOpacity",
+                "-webkit-transition": "0.2s background ease-in-out",
+                "transition": "0.2s background ease-in-out",
+                "& when (@gradOverlay)": {
+                  "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+                }
+              }
+            }
+          },
+          "_name": "gallery1",
+          "_sourceTheme": "mobirise4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders &amp; Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#554346\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" inline=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text=\"\"></div>\n    </div>\n\n</section>",
+          "_cid": "vcilTYz5iU",
+          "_anchor": "gallery1-w",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Increíble",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery00.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery00.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery01.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Creativa",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery02.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery02.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery03.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery03.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery04.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Increíble",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery05.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery05.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery06.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery06.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              },
+              {
+                "tags": "Animada",
+                "videoPreview": "@ADDONS_PATH@/mobirise4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery07.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery07.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Escribir subtítulo aquí",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "alias": false,
+          "_styles": {
             "& when not (@fullScreen)": {
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
@@ -1362,7 +1562,7 @@
           },
           "_name": "features05",
           "_sourceTheme": "replym5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features05 replym5\" group=\"Features\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Card Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 item\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Talleres anteriores</b></h2>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-3087-784x588.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\"></p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/dnpvkw3wwautzdx-1-784x522.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">\n                            Throughout the year, online retailers capitalize on seasonal events such as Valentine's Day,\n                            Mother's Day, Back-to-School season, and Halloween to run targeted sales promotions.\n                        </p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-3085-784x588.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">\n                            Flash sales and limited-time offers create a sense of urgency and exclusivity, encouraging\n                            customers to make purchases quickly.\n                        </p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features05 replym5\" group=\"Features\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"12\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"12\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Card Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Card Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 item\">\n                <div class=\"title-wrapper\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Talleres para Adolescentes</b></h2>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-3087-784x588.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\"></p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/dnpvkw3wwautzdx-1-784x522.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">\n                            Throughout the year, online retailers capitalize on seasonal events such as Valentine's Day,\n                            Mother's Day, Back-to-School season, and Halloween to run targeted sales promotions.\n                        </p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-4 item features-image\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/img-3085-784x588.webp\" alt=\"Mobirise Website Builder\" title>\n                        <p class=\"item-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">\n                            Flash sales and limited-time offers create a sense of urgency and exclusivity, encouraging\n                            customers to make purchases quickly.\n                        </p>\n                    </div>\n                    <div class=\"item-content\">\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\">\n                            <a class=\"btn btn-secondary-outline\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">\n                                <span class=\"mobi-mbri mobi-mbri-right mbr-iconfont mbr-iconfont-btn\"></span>\n                                View more\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "ufXI5bcPYx",
           "_anchor": "features05-c",
           "_protectedParams": [],
